@@ -12,8 +12,3 @@ const options = {
   const url_detail = "https://api.themoviedb.org/3/";
   const url_img = "http://image.tmdb.org/t/p/w500"
   
-document.getElementById('btn-back').setAttribute('onClick', 'backToHome()')
-
-function backToHome() {
-  window.location.replace('index.html');
-}

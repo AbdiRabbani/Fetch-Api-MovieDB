@@ -43,6 +43,12 @@ function showDetail(id) {
   window.location.replace('detail.html?id=' + id);
 }
 
+document.getElementById('btn-back').setAttribute('onClick', 'backToHome()')
+
+function backToHome() {
+  window.location.replace('index.html');
+}
+
 const queryString = window.location.search;
 const urlParam = new URLSearchParams(queryString);
 const movieId = urlParam.get('id')
