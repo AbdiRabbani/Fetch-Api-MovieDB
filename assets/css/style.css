@@ -1,0 +1,56 @@
+
+.bg-darkk {
+    background-color: #2b3035;
+}
+
+.sidebar ul li:hover {
+    background-color: #1e2125;
+}
+
+.navbar {
+    height: 10vh;
+}
+
+.sidebar {
+    height: 90vh;
+}
+
+#main-card {
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+#main-card:hover {
+    box-shadow: 5px 5px #4723d9;
+    color: black;
+}
+
+.img-thumbnaill {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-main {
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 3px;
+    margin-top: -140px;
+}
+
+.btn-back {
+    position: absolute;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-back:hover {
+    transform: scale(1.1);
+    background-color: rgb(211, 211, 211);
+}
+
